@@ -10,7 +10,7 @@ version          '0.1.2'
   supports os
 end
 
-%w{ nginx perl runit bluepill }.each do |dep|
+%w{ chef_nginx perl runit bluepill }.each do |dep|
   depends dep
 end
 
